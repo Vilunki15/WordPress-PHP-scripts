@@ -1,5 +1,8 @@
+<?php
 //When you have a lot of WooC categories, the category metabox height is way too small. 
 //This modifies height to see more categories once!
+//<?php is only for highlighting
+
 function metabox_height() {
 	echo '
 	<style>
