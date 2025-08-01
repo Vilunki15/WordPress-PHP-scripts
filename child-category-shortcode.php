@@ -1,5 +1,7 @@
+<?php
 //If you want to show all child categories of the show'n category,
 //This adds a shortcode that shows categories
+//<?php is only for highlighting
 
 function show_child_product_categories() {
     if ( ! is_product_category() ) return '';
